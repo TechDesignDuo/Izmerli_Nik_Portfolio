@@ -1,5 +1,18 @@
 /*********** CSS For Omakase Izakaya ***********/
 
+
+.food_pics {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.carousel {
+  padding: 3%;
+  width:75%;
+  height:auto;
+}
+
 /* Section Omakase Intro Start */
 .oma_intro {
   padding: 8% 8% 0;
@@ -40,6 +53,17 @@
   padding-bottom: 3%;
 }
 
+.visit_pa {
+  text-decoration: none;
+  color: darkred;
+}
+
+.visit_pa:hover {
+  color: #cc0070;
+}
+
+
+
 /* Media Queries Start */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -49,6 +73,10 @@
 
   .oma_branding {
     padding: 8%;
+  }
+
+  .oma_outro {
+    padding-bottom: 3%;
   }
 
   .oma_pics_first {
@@ -77,6 +105,10 @@
 
   .oma_branding {
     padding: 8%;
+  }
+
+  .oma_outro {
+    padding-bottom: 3%;
   }
 
   .oma_pics_first {
